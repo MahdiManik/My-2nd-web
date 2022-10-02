@@ -1,0 +1,65 @@
+/* iniversile selector */ 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* name selector */
+body {
+    background-color: chartreuse;
+    
+}
+/* id selector */
+#admin-box {
+    background-color: green;
+    width: 50%;
+margin: 100px auto;
+padding: 30px;
+border-radius: 15px;
+text-align: center;
+color: chartreuse;
+}
+/* descendant selector */
+#admin-box h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+
+}
+/* groping selector */
+label, 
+input {
+display: block;
+width: 65%;
+margin: 5px auto;
+
+}
+label {
+    font-size: 17px;
+    text-transform: uppercase;
+}
+input {
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid blue;
+    font-size: 17px;
+    outline: 0px;
+}
+/* attribiut selector */
+input[type="submit"] {
+    margin-top: 20px;
+    transition: ease-in-out 0.8s;
+
+}
+input[type="submit"]:hover {
+    background-color: black;
+    color: chartreuse;
+}
+input::placeholder{
+    color: chartreuse;
+    background-color: black;
+}
+p a {
+    color: salmon;
+    text-decoration: none;
+}
